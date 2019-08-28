@@ -3,22 +3,22 @@ package ua.zp.brainacad;
 public class Kniga {
     public static final String SHRIFT = "Arial";
 
-    public String name;
-    public int nomer;
+    private int stranica;
+    private int glava;
 
-    public String getName() {
-        return name;
+    public int getStranica() {
+        return stranica;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setStranica(int stranica) {
+        this.stranica = stranica;
     }
 
-    public int getNomer() {
-        return nomer;
+    public int getGlava() {
+        return glava;
     }
 
-    public void setNomer(int nomer) {
-        this.nomer = nomer;
+    public void setGlava(int glava) {
+        this.glava = glava;
     }
 }
